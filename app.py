@@ -41,12 +41,12 @@ def main():
     # Set up the page with icon and layout
     st.set_page_config(
         page_title="Breast Cancer Classification",
-        page_icon="image/page_icon.png",  # Path to your icon image file
+        page_icon="page_icon.png",  # Path to your icon image file
         layout='wide',
         initial_sidebar_state='expanded'
     )
     st.sidebar.markdown("# Aibytec ")
-    st.sidebar.image('image/logo.jpg', width=200)
+    st.sidebar.image('logo.jpg', width=200)
     st.title("Breast Cancer Classification using Ultrasound Images")
 
     # Custom CSS for styling
